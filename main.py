@@ -242,6 +242,6 @@ async def improve_answer(question, previous_answer):
 async def startup_event():
     asyncio.create_task(periodic_feedback_analysis())
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8050)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="127.0.0.1", port=8050)
