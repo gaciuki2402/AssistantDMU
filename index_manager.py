@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 openai_api_key = os.getenv("OPENAI_API_KEY")
-print(f"Key: {openai_api_key}")
+# print(f"Key: {openai_api_key}")
 if not openai_api_key:
     raise ValueError(
         "Please set the OPENAI_API_KEY environment variable in the .env file."
